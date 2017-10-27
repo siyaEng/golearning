@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var i, j int = 1, 2
+var i, j int = 1, 2 // 变量类型从初始值中获得
 
 func main() {
 	var c, python, java = true, false, "no!"

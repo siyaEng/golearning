@@ -7,9 +7,9 @@ package main
 import "fmt"
 
 func main() {
-	var a [2]string
+	var a [2]string // 一个有两个字符串元素的数组
 	a[0] = "Hello"
 	a[1] = "World"
-	fmt.Println(a[0], a[1]) //打印数组元素
-	fmt.Println(a) //打印数组
+	fmt.Println(a[0], a[1]) // 打印数组元素
+	fmt.Println(a) // 打印数组
 }

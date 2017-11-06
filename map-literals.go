@@ -3,19 +3,21 @@ package main
 
 import "fmt"
 
-type Vertex struct {
-	Lat, Long float64
+type Test struct {
+	bob, pop int
 }
 
-var m = map[string]Vertex{
-	"Bell Labs": Vertex{
-		40.68433, -74.39967,
+var m = map[string]Test{
+	"first": {
+		1, 2,
 	},
-	"Google": Vertex{
-		37.42202, -122.08408,
+	"second": {
+		3, 4,
 	},
 }
 
 func main() {
-	fmt.Println(m)
+	for k, _ := range m {
+		fmt.Println(m[k])
+	}
 }

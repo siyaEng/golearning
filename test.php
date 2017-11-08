@@ -3,7 +3,7 @@
 function test($x)
 {
 	if ($x <= 2) {
-		return $x;
+		return 1;
 	} else {
 		return test($x-1) + test($x-2);
 	}

@@ -18,7 +18,8 @@ var m = map[string]Vertex{
 
 func main() {
 
-	for k, v := range m {
-		fmt.Printf("%v's postion is %v\n", k, v)
+	for k, v := range m{
+		fmt.Printf("%v = %v\n", k, v)
 	}
+	
 }
